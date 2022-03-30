@@ -97,7 +97,7 @@ def decode_caesar(key, text):
 
 
 def change_text(text):
-    all_unnecess = text.whitespace + text.punctuation + text.digits
+    all_unnecess = string.whitespace + string.punctuation + string.digits
     for sym in all_unnecess:
         text = text.replace(sym, '')
 
