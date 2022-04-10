@@ -208,7 +208,7 @@ def main():
         if (input_file == None):
             s = input()
         else:
-            f = open(text_file, 'r')
+            f = open(input_file, 'r')
             s = f.read()
 
         dic1 = train(s)
